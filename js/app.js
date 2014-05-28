@@ -1,12 +1,5 @@
 (function(){
 
-	$(window).load(function(){
-
-   	// PAGE IS FULLY LOADED  
-   	// FADE OUT YOUR OVERLAYING DIV
-  		$('#overlay').fadeOut();
-	});
-
     // 初始化SDK (把你剛剛抄下來的Application ID和 JavaScript Key放上去)
     Parse.initialize("XWAvVubSeumNZw2ikJGXRCxOjSObeiP1uq0Bum8y", "BVIqqRUBaGSLyKlv7YK9Amb5kaRh4xOEzdsU4Bh8");
 
